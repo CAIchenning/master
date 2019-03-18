@@ -75,6 +75,6 @@ public class IndexController {
 		model.addAttribute("Login", messageSource.getMessage("messages.messages.Login", null, locale));
 		model.addAttribute("Safe_Exit", messageSource.getMessage("messages.messages.Safe_Exit", null, locale));
 		model.addAttribute("WelcomeUser", messageSource.getMessage("messages.messages.WelcomeUser", null, locale));
-		return model;
+		return model; 
 	}
 }
